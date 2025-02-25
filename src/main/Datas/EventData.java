@@ -1,11 +1,14 @@
 package Datas;
 
+// Estructura de la Clase EventData
 public class EventData {
+    // Atributos
     private int id;
     private String name;
     private String description;
     private String organizer;
 
+    //Constructor
     public EventData(int id, String name, String description, String organizer) {
         this.id = id;
         this.name = name;
@@ -13,6 +16,7 @@ public class EventData {
         this.organizer = organizer;
     }
 
+    //Funciones Get y Set
     public int getId() {
         return id;
     }
